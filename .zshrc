@@ -1,6 +1,7 @@
 export TERM="xterm-256color"
 export WORK="/Users/kjhank/Sites"
 export WWW="/Users/kjhank/Sites/personal/"
+
 #
 # Executes commands at the start of an interactive session.
 #

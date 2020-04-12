@@ -3,6 +3,6 @@
 
 * `iterm color schemes -> ~/.iTerm2-Color-Schemes/schemes/` *used with zprezto and powerlevel10k*
 
-* `.zshrc -> ~` *requires zprezto, neo-vim*
+* `.zshrc -> ~` *requires zsh,zprezto, neo-vim*
 
 * `.vimrc -> ~` *requires vim, obviously*
