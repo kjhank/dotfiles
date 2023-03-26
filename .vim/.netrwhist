@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/kjhank/Projects/react-ts-boilerplate'
+let g:netrw_dirhist_3='/Users/kjhank/Projects/zatogrip/src/components/GlobalHeader'
+let g:netrw_dirhist_2='/Users/kjhank/Projects/zuravit/node_modules/webpack'
+let g:netrw_dirhist_1='/Users/kjhank/Projects/vigalex/src/components/Header'
