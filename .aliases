@@ -1,4 +1,4 @@
-fi
+# some common aliases & functions
 
 alias ls='ls -ahl'
 alias lsd='ls -ahl | grep drw'
