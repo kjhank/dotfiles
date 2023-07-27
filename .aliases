@@ -1,0 +1,20 @@
+fi
+
+alias ls='ls -ahl'
+alias lsd='ls -ahl | grep drw'
+alias psg='ps -Ao pid,command | grep'
+alias psgi='ps -Ao pid,command | grep -i'
+alias cdgr='cd "$(git rev-parse --show-toplevel)"'
+alias vivaldi='/Applications/Vivaldi.app/Contents/MacOS/Vivaldi'
+alias dotfiles='/opt/homebrew/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+
+export CODE=~/Code
+
+function backup {
+  command cp $1{,.bak}
+}
+
+function mkcd {
+  command mkdir $1 && cd $1
+}
+
