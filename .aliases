@@ -1,7 +1,7 @@
 # some common aliases & functions
 
-alias ls='ls -ahl'
-alias lsd='ls -ahl | grep drw'
+alias ls='exa -ahl --icons'
+alias lsd='exa -aDhl --icons'
 alias psg='ps -Ao pid,command | grep'
 alias psgi='ps -Ao pid,command | grep -i'
 alias cdgr='cd "$(git rev-parse --show-toplevel)"'
