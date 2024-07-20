@@ -1,12 +1,13 @@
 # some common aliases & functions
 
-alias ls='exa -ahl --icons'
-alias lsd='exa -aDhl --icons'
+alias ls='lsd -ahl --icons'
+alias lsd='lsd -aDhl --icons'
 alias psg='ps -Ao pid,command | grep'
 alias psgi='ps -Ao pid,command | grep -i'
 alias cdgr='cd "$(git rev-parse --show-toplevel)"'
 alias vivaldi='/Applications/Vivaldi.app/Contents/MacOS/Vivaldi'
 alias dotfiles='/opt/homebrew/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+alias cpdirname="pwd | rev | cut -d/ -f1 | rev | tr -d '\n' | pbcopy"
 
 export CODE=~/Code
 
