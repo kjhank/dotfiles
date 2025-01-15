@@ -1,6 +1,6 @@
-background-blur-radius  = 20
-background-opacity = 0.77
-theme = andromeda
+background-blur-radius  = 15
+background-opacity = 0.92
+theme = poimandres
 mouse-hide-while-typing = true
 font-family = 'MonaspiceNe Nerd Font'
 font-size = 14
@@ -9,3 +9,4 @@ font-thicken = true
 # theme = 'dark:poimandres.itermcolors,light:poimandres-light.itermcolors'
 window-inherit-font-size = false
 window-save-state = always
+
