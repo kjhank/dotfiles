@@ -8,6 +8,7 @@ alias cdgr='cd "$(git rev-parse --show-toplevel)"'
 alias vivaldi='/Applications/Vivaldi.app/Contents/MacOS/Vivaldi'
 alias dotfiles='/opt/homebrew/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias cpdirname="pwd | rev | cut -d/ -f1 | rev | tr -d '\n' | pbcopy"
+alias cat=bat
 
 export CODE=~/Code
 
