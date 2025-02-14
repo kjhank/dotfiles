@@ -4,6 +4,28 @@
             "complex_modifications": {
                 "rules": [
                     {
+                        "description": "Change caps + c to [control + f2, fn + c] to show control center",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": { "mandatory": ["left_command", "control", "left_option", "left_shift"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f2",
+                                        "modifiers": ["control"]
+                                    },
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": ["fn"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Disable cmd+tab triggered by MX Master 3 gesture button",
                         "manipulators": [
                             {

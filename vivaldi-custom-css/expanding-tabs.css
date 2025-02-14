@@ -4,6 +4,7 @@
 
 :root{
   --tabbar-size: 36px;
+  --tab-transition-fn: cubic-bezier(0.78, 0, 0.22, 1);
 }
 
 /* tabbar workspace */
@@ -43,6 +44,7 @@
 /* tab stacking - accordion toggle arrow position */
 #tabs-container.left .tab-position.accordion-toggle-arrow {
   --PositionX: 4px!important;
+  margin-left: -1px;
 }
 
 .inner > .tabbar-wrapper {
@@ -60,7 +62,7 @@
 
 .inner #tabs-tabbar-container,
 .inner .button-toolbar.workspace-popup.tabbar-workspace-button.button-menu {
-  transition: width 0.5s;
+  transition: width 0.5s var(--tab-transition-fn);
   padding-block: calc(var(--densityGap)*2);
 }
 
@@ -72,3 +74,7 @@
   min-height: calc(51px / var(--uiZoomLevel));
 }
 
+#browser.color-behind-tabs-on .tab.active.active {
+  background-color: var(--colorHighlightBg);
+  color: var(--colorHighlightFg);
+}
