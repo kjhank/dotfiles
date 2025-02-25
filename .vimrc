@@ -5,4 +5,5 @@ set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
 set ruler
 set rulerformat=%l,%v
 set re=0
+set rtp+=/opt/homebrew/opt/fzf
 
