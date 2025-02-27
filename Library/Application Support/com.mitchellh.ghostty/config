@@ -10,4 +10,5 @@ keybind = global:cmd+shift+option+ctrl+t=toggle_quick_terminal
 quick-terminal-screen = mouse
 window-inherit-font-size = false
 window-save-state = always
+working-directory = home
 
