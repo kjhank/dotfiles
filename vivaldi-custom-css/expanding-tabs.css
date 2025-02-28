@@ -77,7 +77,7 @@
 
 :is(#browser.color-behind-tabs-on, #browser.color-behind-tabs-off) .tab.active.active {
   /* background-color: var(--colorHighlightBg); */
-  color: var(--colorHighlightFg);
+  color: var(--colorAccentFg);
   outline: 2px solid var(--colorHighlightBg);
 }
 
