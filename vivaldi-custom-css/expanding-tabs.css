@@ -88,3 +88,11 @@
 #tabs-container.left .overflow.tab-strip {
   padding-block-start: var(--densityGap);
 }
+
+#browser:has(.tab-wrapper.active:not([aria-label="Start Page"])) .bookmark-bar {
+  display: none;
+}
+
+/*#browser:has(.tab-wrapper:.active[aria-label="Start Page"]) .bookmark-bar {
+  display: block;
+}*/
