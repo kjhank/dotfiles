@@ -47,7 +47,12 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "pointing_button": 6 }],
+                                "to": [
+                                    {
+                                        "key_code": "up_arrow",
+                                        "modifiers": ["left_control"]
+                                    }
+                                ],
                                 "type": "basic"
                             }
                         ]

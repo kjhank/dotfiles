@@ -3,7 +3,7 @@ background-opacity = 0.92
 theme = poimandres
 mouse-hide-while-typing = true
 font-family = 'MonaspiceNe Nerd Font'
-font-size = 14
+font-size = 15
 font-feature = 'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'liga'
 font-thicken = true
 keybind = global:cmd+shift+option+ctrl+t=toggle_quick_terminal
