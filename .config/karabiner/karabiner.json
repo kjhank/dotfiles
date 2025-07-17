@@ -4,6 +4,18 @@
             "complex_modifications": {
                 "rules": [
                     {
+                        "description": "Prevent command-m minimize window",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": { "mandatory": ["command"] }
+                                },
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Change caps + c to [control + f2, fn + c] to show control center",
                         "manipulators": [
                             {
