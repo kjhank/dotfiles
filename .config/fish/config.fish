@@ -4,6 +4,8 @@ end
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+source ~/.aliases
+
 alias dotfiles='/usr/bin/git --git-dir=/Users/kjhank/.dotfiles/ --work-tree=/Users/kjhank'
 
 # starship init fish | source
