@@ -7,32 +7,92 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "icon_theme": "Material Icon Theme",
+  "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true
+      }
+    }
+  },
+  "vim_mode": true,
+  "confirm_quit": true,
+  "restore_on_startup": "last_workspace",
+  "edit_predictions": {"mode": "subtle"},
+  "show_signature_help_after_edits": true,
+  "auto_signature_help": false,
+  "search": {
+    "button": false,
+    "whole_word": false,
+    "case_sensitive": false,
+    "include_ignored": true,
+    "regex": false
+  },
+  "use_smartcase_search": false,
+  "minimap": {
+    "show": "never"
+  },
+  "hover_popover_delay": 666,
+  "current_line_highlight": "gutter",
+  "cursor_blink": true,
+  "git": {
+    "inline_blame": {
+      "enabled": true,
+      "delay_ms": 0,
+      "padding": 7,
+      "min_column": 0,
+      "show_commit_summary": false
+    }
+  },
+  "terminal": {
+    "env": {
+      "FIG_NEW_SESSION": "1"
+    },
+    "font_family": "AtkynsonMono Nerd Font",
+    "font_size": 14.0
+  },
+  "preview_tabs": {
+    "enabled": false
+  },
+  "linked_edits": true,
+  "show_edit_predictions": true,
+  "tab_size": 2,
+  "agent": {
+    "always_allow_tool_actions": true,
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-3.7-sonnet"
+    }
+  },
+  "icon_theme": "Zed (Default)",
   "soft_wrap": "editor_width",
   "ensure_final_newline_on_save": true,
   "format_on_save": "off",
   "autosave": "on_window_change",
   "formatter": "language_server",
   "base_keymap": "VSCode",
-  "theme": "poimandres",
+  "theme": {
+    "dark": "poimandres",
+    "light": "Catppuccin Latte",
+    "mode": "system"
+  },
   "tabs": {
     "close_position": "left"
   },
   "ui_font_size": 16,
-  "buffer_font_family": "MonaspiceNe Nerd Font",
-  "buffer_font_size": 16,
+  "buffer_font_family": "AtkynsonMono Nerd Font Mono",
+  "buffer_font_size": 18.0,
   "buffer_font_features": {
-    "calt": true,
-    "ss01": true,
-    "ss02": true,
-    "ss03": true,
-    "ss04": true,
-    "ss05": true,
-    "ss06": true,
-    "ss07": true,
-    "ss08": true,
-    "ss09": true,
-    "liga": true
+    "calt": false,
+    "ss01": false,
+    "ss02": false,
+    "ss03": false,
+    "ss04": false,
+    "ss05": false,
+    "ss06": false,
+    "ss07": false,
+    "ss08": false,
+    "ss09": false,
+    "liga": false
   },
   "prettier": {
     "singleQuote": true
