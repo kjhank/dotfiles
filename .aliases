@@ -13,11 +13,11 @@ alias vim=nvim
 
 export CODE=~/Code
 
-function backup {
+function backup 
   command cp $1{,.bak}
-}
-
-function mkcd {
+end
+ 
+function mkcd 
   command mkdir $1 && cd $1
-}
-
+  end
+ 
