@@ -52,7 +52,7 @@
       "FIG_NEW_SESSION": "1"
     },
     "font_family": "AtkynsonMono Nerd Font",
-    "font_size": 14.0
+    "font_size": 16.0
   },
   "preview_tabs": {
     "enabled": false
@@ -67,7 +67,7 @@
       "model": "claude-3.7-sonnet"
     }
   },
-  "icon_theme": "Zed (Default)",
+  "icon_theme": "Catppuccin Frappé",
   "soft_wrap": "editor_width",
   "ensure_final_newline_on_save": true,
   "format_on_save": "off",
@@ -80,7 +80,8 @@
     "mode": "system"
   },
   "tabs": {
-    "close_position": "left"
+    "close_position": "left",
+    "file_icons": true
   },
   "ui_font_size": 16,
   "buffer_font_family": "AtkynsonMono Nerd Font Mono",
