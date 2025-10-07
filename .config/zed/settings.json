@@ -7,6 +7,10 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "lsp_document_colors": "inlay",
+  "dev": {
+    "lsp_document_colors": "inlay"
+  },
   "lsp": {
     "biome": {
       "settings": {
