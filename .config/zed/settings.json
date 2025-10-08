@@ -76,7 +76,7 @@
   "base_keymap": "VSCode",
   "theme": {
     "dark": "Poimandres (custom)",
-    "light": "Catppuccin Latte",
+    "light": "Poimandres (custom)",
     "mode": "system"
   },
   "tabs": {
