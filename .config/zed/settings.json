@@ -75,7 +75,7 @@
   "formatter": "language_server",
   "base_keymap": "VSCode",
   "theme": {
-    "dark": "poimandres",
+    "dark": "Poimandres (custom)",
     "light": "Catppuccin Latte",
     "mode": "system"
   },
