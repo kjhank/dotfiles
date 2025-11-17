@@ -1,0 +1,109 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Alabaster",
+  "author": "Converted from VSCode theme",
+  "themes": [
+    {
+      "appearance": "light",
+      "name": "Alabaster",
+      "style": {
+        "background.appearance": "opaque",
+        "background": "#F7F7F7",
+        "surface.background": "#F0F0F0",
+        "panel.background": "#F0F0F0",
+        "text": "#000",
+        "text.disabled": "#00080",
+        "border.focused": "#CCCCCC",
+        "border.transparent": "undefined00",
+        "element.active": "undefinedCC",
+        "element.selected": "#DDDDDD",
+        "ghost_element.background": "#F7F7F700",
+        "ghost_element.active": "#DDDDDDCC",
+        "ghost_element.selected": "#DDDDDD",
+        "ghost_element.disabled": "#E6E6E666",
+        "editor.background": "#F7F7F7",
+        "editor.foreground": "#000",
+        "editor.line_number": "#9DA39A",
+        "editor.active_line.background": "#F0F0F0",
+        "editor.selection.background": "#BFDBFE",
+        "editor.document_highlight.read_background": "#CFCFCF81",
+        "editor.document_highlight.write_background": "#CFCFCF81",
+        "editor.subheader.background": "#F7F7F7",
+        "terminal.dim_foreground": "undefined99",
+        "terminal.ansi.black": "#000000",
+        "terminal.ansi.red": "#AA3731",
+        "terminal.ansi.green": "#448C27",
+        "terminal.ansi.yellow": "#CB9000",
+        "terminal.ansi.blue": "#325CC0",
+        "terminal.ansi.magenta": "#7A3E9D",
+        "terminal.ansi.cyan": "#0083B2",
+        "terminal.ansi.white": "#BBBBBB",
+        "terminal.ansi.bright_black": "#777777",
+        "terminal.ansi.bright_red": "#F05050",
+        "terminal.ansi.bright_green": "#60CB00",
+        "terminal.ansi.bright_yellow": "#FFBC5D",
+        "terminal.ansi.bright_blue": "#007ACC",
+        "terminal.ansi.bright_magenta": "#E64CE6",
+        "terminal.ansi.bright_cyan": "#00AACB",
+        "terminal.ansi.bright_white": "#FFFFFF",
+        "terminal.ansi.dim_black": "#00000066",
+        "terminal.ansi.dim_red": "#AA373166",
+        "terminal.ansi.dim_green": "#448C2766",
+        "terminal.ansi.dim_yellow": "#CB900066",
+        "terminal.ansi.dim_blue": "#325CC066",
+        "terminal.ansi.dim_magenta": "#7A3E9D66",
+        "terminal.ansi.dim_cyan": "#0083B266",
+        "terminal.ansi.dim_white": "#BBBBBB66",
+        "error.background": "undefined19",
+        "warning.background": "undefined19",
+        "info.background": "undefined19",
+        "hint.background": "undefined19",
+        "success.background": "undefined19",
+        "pane.focused_border": "#CCCCCC",
+        "status_bar.background": "#DDDDDD",
+        "toolbar.background": "#F7F7F7",
+        "search.match_background": "#FFD86381",
+        "tab_bar.background": "#F0F0F0",
+        "players": [
+          {
+            "cursor": "#007ACC",
+            "selection": "#BFDBFE",
+            "background": "#F7F7F7"
+          }
+        ],
+        "syntax": {
+          "constant": {
+            "color": "#7A3E9D"
+          },
+          "constant.builtin": {
+            "color": "#7A3E9D"
+          },
+          "string": {
+            "color": "#448C27"
+          },
+          "string.documentation": {
+            "color": "#448C27"
+          },
+          "string.regexp": {
+            "color": "#448C27"
+          },
+          "string.regex": {
+            "color": "#448C27"
+          },
+          "character": {
+            "color": "#448C27"
+          },
+          "character.special": {
+            "color": "#448C27"
+          },
+          "number": {
+            "color": "#7A3E9D"
+          },
+          "comment": {
+            "color": "#AA3731"
+          }
+        }
+      }
+    }
+  ]
+}

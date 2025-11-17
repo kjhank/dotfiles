@@ -1,0 +1,8 @@
+:not(.tab-position.colored) > .tab-wrapper > .tab.active {
+  outline: 2px solid var(--colorHighlightBg);
+
+  #browser.isblurred & {
+    outline-color: var(--colorHighlightBgDark)
+  }
+}
+

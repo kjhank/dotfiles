@@ -1,19 +1,29 @@
 background-blur-radius = 45
 background-opacity = 0.92
+
+custom-shader = ~/.config/ghostty/shaders/cursor_smear_fade.glsl
+
 theme = poimandres
-mouse-hide-while-typing = true
+
 #font-family = 'MonaspiceNe Nerd Font'
 font-family = 'Atkinson Hyperlegible Mono'
 font-family = 'AtkynsonMono Nerd Font Mono'
 font-size = 15
 # font-feature = 'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'liga'
 font-thicken = true
+
 keybind = global:cmd+shift+option+ctrl+t=toggle_quick_terminal
+
+mouse-hide-while-typing = true
+
+shell-integration = fish
+
 quick-terminal-screen = mouse
 quick-terminal-position = top
+
 window-inherit-font-size = false
 window-inherit-working-directory = false
 window-save-state = always
+
 working-directory = home
-custom-shader = ~/.config/ghostty/shaders/cursor_smear_fade.glsl
 
