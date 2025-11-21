@@ -1,5 +1,5 @@
 background-blur-radius = 45
-background-opacity = 0.92
+background-opacity = 0.69
 
 custom-shader = ~/.config/ghostty/shaders/cursor_smear_fade.glsl
 
